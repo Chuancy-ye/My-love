@@ -1,0 +1,13 @@
+<view class="container">
+    <text class="borderStyle" style="color: skyblue">正从下腔静脉前往右心房
+
+假装有动画...</text>
+    <view class="cover-view" style="width: 200px; height: 400px;">
+        <image class="cover-view" src="./car1.png" style="width: 200px; height: 300px;"></image>
+    </view>
+    <view class="name">
+        <view class="preserve">
+            <button bindtap="server" style="background-color:#fbf9fe">去叶富贵的右心房</button>
+        </view>
+    </view>
+</view>

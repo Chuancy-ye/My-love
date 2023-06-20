@@ -1,0 +1,11 @@
+<view class="top" style="height: 100rpx;">
+    <text>左心房</text>
+</view>
+<view class=" view-ma">
+    <view style="height: 800rpx;">
+        <view scrollTop="{{scrollTop}}" scrollY="true">
+            <text class="text-box">{{text}}</text>
+        </view>
+    </view>
+    <image bindtap="add" class="image1" disabled="{{!canAdd}}" src="./car1.png"></image>
+</view>

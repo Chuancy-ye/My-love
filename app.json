@@ -1,0 +1,20 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/biao/biao",
+        "pages/right/right",
+        "pages/left/left",
+        "pages/guodu/index",
+        "pages/guodu2/index",
+        "pages/index2/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black",
+        "pageOrientation": "auto",
+        "resizable": true
+    }
+}

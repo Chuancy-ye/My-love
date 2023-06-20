@@ -1,0 +1,41 @@
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #aaa;
+}
+
+.usermotto {
+    position: absolute;
+    top: calc(50% - 100rpx);
+    left: calc(35%);
+    font-weight: 700;
+}
+
+.userenter,.usermotto {
+    margin-top: 200px;
+}
+
+.door {
+    font-family: Courier New,Courier,monospace;
+    font-size: 12pt;
+    margin-top: 20px;
+}
+
+.cover-view {
+    position: absolute;
+    width: 428rpx;
+    height: 428rpx;
+    top: calc(50% - 200rpx);
+    left: calc(50% - 200rpx);
+}

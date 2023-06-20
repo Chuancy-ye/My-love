@@ -1,0 +1,186 @@
+.intro {
+    margin: 30px;
+    text-align: center;
+}
+
+.cover-view {
+    position: absolute;
+    top: calc(80% - 100rpx);
+    left: calc(50% - 200rpx);
+}
+
+.flex-wrp {
+    display: flex;
+}
+
+.flex-item {
+    width: 200rpx;
+    height: 300rpx;
+    font-size: 26rpx;
+}
+
+.text1,.text2 {
+    font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+    margin: 10px;
+}
+
+.text2 {
+    font-style: italic;
+    font-size: large;
+}
+
+.demo-text-3 {
+    background: hsla(0,0%,100%,.7);
+}
+
+.scroll-view {
+    display: inline-block;
+    margin-top: 10px;
+    border: 10px groove orange;
+    border-right-width: 22px;
+    border-radius: 10px;
+    background-color: rgba(20,76,231,.7);
+}
+
+.view-ma {
+    margin: 20px;
+}
+
+.top {
+    color: #f0f8ff;
+    margin-top: 100rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    justify-content: space-between;
+    font-weight: 700;
+    align-items: center;
+    width: 350px;
+    background-color: rgba(7,118,223,.7);
+}
+
+.triangle {
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px;
+    background-color: #ebebe9;
+}
+
+.triangle ul {
+    padding: 1px;
+}
+
+.triangle li {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.triangle li span {
+    position: relative;
+    border-radius: 7px;
+    background-color: #a6e860;
+    padding: 6px 10px 8px;
+    z-index: 1;
+}
+
+.triangle .textLeft span {
+    background-color: #fff;
+}
+
+.triangle li.textLeft:before {
+    content: url(images/tx1.jpg-do-not-use-local-path-./pages/right/right.wxss&1&1282);
+    box-sizing: border-box;
+    position: relative;
+    left: -10px;
+    top: 9px;
+}
+
+.triangle li.textLeft span:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-right-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: -16px;
+}
+
+.triangle li.textRight:after {
+    content: url(images/tx2.jpg-do-not-use-local-path-./pages/right/right.wxss&1&1566);
+    box-sizing: border-box;
+    position: relative;
+    right: -10px;
+    top: 9px;
+}
+
+.triangle li.textRight span:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-left-color: #a6e860;
+    position: absolute;
+    top: 8px;
+    right: -16px;
+}
+
+li {
+    list-style: none;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.item {
+    width: 200px;
+    background: #255ba2;
+    font-size: large;
+}
+
+.item,.item2 {
+    position: relative;
+    min-height: 20px auto;
+    border-radius: 5px;
+    line-height: 50px;
+    margin-left: 10px;
+    word-break: break-word;
+    color: #fff;
+    padding: 5px;
+    line-height: 18px;
+}
+
+.item2 {
+    width: 150px;
+    background: #25a27c;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.container-right {
+    height: 100%;
+    padding: 10rpx 0;
+    box-sizing: border-box;
+}
+
+.bottom,.container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    width: 350px;
+    font-weight: 700;
+}

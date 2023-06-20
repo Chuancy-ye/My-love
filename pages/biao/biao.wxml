@@ -1,0 +1,26 @@
+<view class="container">
+    <text class="borderStyle" style="color: red">欢 	 光 
+  迎  	   临</text>
+    <text>
+</text>
+    <view class="door"> {{m1.message}} </view>
+    <text>
+</text>
+    <view class="name">
+        <text>户主名</text>
+        <input bindinput="userNameInput" class="userinfo-nickname" placeholder="该溜子da王" type="text" value="{{username}}"></input>
+    </view>
+    <form>
+        <view class="name">
+            <text>密码</text>
+            <input bindinput="passWdInput" class="userinfo-nickname" placeholder="猜猜密码是什么" type="number"></input>
+        </view>
+        <view class="preserve">
+            <button bindtap="server" formType="reset" style="background-color:#fbf9fe">登陆</button>
+        </view>
+    </form>
+</view>
+<wxs module="m1">
+var msg = "Ye Fugui\x27s Heart Gate ";
+module.exports.message = msg;
+</wxs>

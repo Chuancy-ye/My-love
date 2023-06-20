@@ -1,0 +1,17 @@
+<view class="container">
+    <view catchtap="onMusicTap">
+        <image class="cover-view" src="./love.gif"></image>
+    </view>
+    <view class="userinfo">
+        <button bindgetuserinfo="getUserInfo" openType="getUserInfo" wx:if="{{!hasUserInfo&&canIUse}}"> 获取头像昵称 </button>
+        <block wx:else>
+            <image bindtap="bindViewTap" class="userinfo-avatar" mode="cover" src="{{userInfo.avatarUrl}}"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+    <cover-view class="usermotto">
+        <cover-view bindtap="bindViewTap2">{{motto}}
+</cover-view>
+    </cover-view>
+    <text class="door">生命的延续，离不开心脏的跳动</text>
+</view>

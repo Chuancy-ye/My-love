@@ -1,0 +1,43 @@
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #2b83ac;
+}
+
+.preserve {
+    margin-top: 100px;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.borderStyle {
+    width: 75px;
+    height: 80px;
+    font-size: 20pt;
+    background-color: orange;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+
+.borderStyle,.door {
+    font-weight: 700;
+    font-family: Courier New,Courier,monospace;
+}
+
+.door {
+    font-size: 15pt;
+}

@@ -1,0 +1,8 @@
+.intro {
+    margin: 30px;
+    text-align: center;
+}
+
+.cover-view {
+    margin-top: 40px;
+}
